@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/vendor2"
+
+        android:icon="@drawable/add_24px"
+        android:title="Vendor"
+
+
+        >
+
+    </item>
+
+
+    <item android:id="@+id/Contract2"
+
+        android:icon="@drawable/search_20px"
+        android:title="Contracts"
+
+
+        >
+
+    </item>
+
+
+    <item android:id="@+id/Performance2"
+
+        android:icon="@drawable/edit_24px"
+        android:title="Performance"
+
+
+        >
+
+    </item>
+
+
+</menu>

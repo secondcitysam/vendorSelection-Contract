@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/background_color"
+    tools:context=".Fragments.PerformanceFrag">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+
+            >
+
+            <EditText
+                android:layout_marginTop="30dp"
+                android:id="@+id/pid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/edittext_bg"
+                android:fontFamily="@font/baloo"
+                android:hint="Performance Id"
+                android:inputType="number"
+
+                android:padding="16dp">
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/pvid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/edittext_bg"
+                android:fontFamily="@font/baloo"
+                android:hint="Vendor Id"
+                android:inputType="number"
+
+                android:padding="16dp">
+
+            </EditText>
+
+
+            <EditText
+                android:id="@+id/psales"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/edittext_bg"
+                android:fontFamily="@font/baloo"
+                android:hint="Sales Amount"
+                android:inputType="numberDecimal"
+
+                android:padding="16dp">
+
+            </EditText>
+
+
+            <EditText
+                android:id="@+id/prating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/edittext_bg"
+                android:fontFamily="@font/baloo"
+                android:hint="Rating ( 1.0 - 5.0 )"
+                android:inputType="numberDecimal"
+
+                android:padding="16dp">
+
+            </EditText>
+
+
+
+
+
+            <EditText
+                android:id="@+id/peval"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/edittext_bg"
+                android:fontFamily="@font/baloo"
+                android:hint="Evaluation Date"
+                android:inputType="date"
+
+                android:padding="16dp">
+
+            </EditText>
+
+
+
+            <EditText
+                android:id="@+id/pcategory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/edittext_bg"
+                android:fontFamily="@font/baloo"
+                android:hint="Performance Category"
+                android:inputType="text"
+
+                android:padding="16dp">
+
+            </EditText>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/addP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:layout_marginTop="30dp"
+                android:background="@drawable/buttonbg"
+
+                android:fontFamily="@font/baloo"
+                android:padding="16dp"
+                android:text="ADD PERFORMANCE">
+
+            </androidx.appcompat.widget.AppCompatButton>
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/updP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:layout_marginTop="30dp"
+                android:background="@drawable/buttonbg"
+
+                android:fontFamily="@font/baloo"
+                android:padding="16dp"
+                android:text="UPDATE PERFORMANCE">
+
+            </androidx.appcompat.widget.AppCompatButton>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/delP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:layout_marginTop="30dp"
+                android:background="@drawable/buttonbg"
+
+                android:fontFamily="@font/baloo"
+                android:padding="16dp"
+                android:text="DELETE PERFORMANCE">
+
+            </androidx.appcompat.widget.AppCompatButton>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+</ScrollView>

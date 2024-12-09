@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/background_color"
+    tools:context=".Fragments.VFrag">
+
+
+    <FrameLayout
+          android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+
+            >
+
+            <EditText
+                android:layout_marginTop="60dp"
+                android:id="@+id/vid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/edittext_bg"
+                android:fontFamily="@font/baloo"
+                android:hint="Vendor Id"
+                android:inputType="number"
+
+                android:padding="16dp">
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/vname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/edittext_bg"
+                android:fontFamily="@font/baloo"
+                android:hint="Name"
+                android:inputType="textPersonName"
+
+                android:padding="16dp">
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/vcontact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/edittext_bg"
+                android:fontFamily="@font/baloo"
+                android:hint="Contact Person"
+                android:inputType="textPersonName"
+
+                android:padding="16dp">
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/vphone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/edittext_bg"
+                android:fontFamily="@font/baloo"
+                android:hint="Contact Person Phone"
+                android:inputType="phone"
+
+                android:padding="16dp">
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/vemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/edittext_bg"
+                android:fontFamily="@font/baloo"
+                android:hint="Vendor Email"
+                android:inputType="textEmailAddress"
+
+                android:padding="16dp">
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/vaddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/edittext_bg"
+                android:fontFamily="@font/baloo"
+                android:hint="Inventory Address"
+                android:inputType="textLongMessage"
+
+                android:padding="16dp">
+
+            </EditText>
+
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/addV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:layout_marginTop="30dp"
+                android:background="@drawable/buttonbg"
+
+                android:fontFamily="@font/baloo"
+                android:padding="16dp"
+                android:text="ADD VENDOR">
+
+            </androidx.appcompat.widget.AppCompatButton>
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/updV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:layout_marginTop="30dp"
+                android:background="@drawable/buttonbg"
+
+                android:fontFamily="@font/baloo"
+                android:padding="16dp"
+                android:text="UPDATE VENDOR">
+
+            </androidx.appcompat.widget.AppCompatButton>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/delV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:layout_marginTop="30dp"
+                android:background="@drawable/buttonbg"
+
+                android:fontFamily="@font/baloo"
+                android:padding="16dp"
+                android:text="DELETE VENDOR">
+
+            </androidx.appcompat.widget.AppCompatButton>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+</ScrollView>
